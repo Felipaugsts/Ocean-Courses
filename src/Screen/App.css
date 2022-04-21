@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .App-logo {
@@ -39,4 +42,15 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+
+/* COURSE LIST */
+
+.course-list { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+  width: 1200px;
 }
