@@ -3,6 +3,8 @@ import './App.css'
 import Navigation from '../Components/Navigation/Navigation'
 import CourseCard from '../Components/CourseCard/CourseCard'
 import getAll from '../Data/api'
+import Footer from '../Components/Footer/Footer'
+
 function App() {
 
   const [courseArray, setList] = useState([])
@@ -36,6 +38,8 @@ const showAll = () => {
          }
       </div>
       <button className='button-showall medium dark' onClick={showAll}>Ver mais</button>
+
+      <Footer />
     </div>
   )
 }

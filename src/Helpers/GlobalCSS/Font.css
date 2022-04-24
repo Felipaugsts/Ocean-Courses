@@ -9,6 +9,9 @@
 .w-bold { 
     font-weight: 550 !important;
 }
+.light { 
+    font-weight: 300 !important;
+}
 
 /* SIZES */
 .small { 
