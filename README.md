@@ -6,7 +6,7 @@
 - [x] Typescript 
 - [x] Axios
 - [x] Components
-- [x] Jest 
+- [] Jest 
 - [x] Responsive
 - [x] Vite
 
