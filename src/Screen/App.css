@@ -54,3 +54,8 @@ button {
   padding: 25px;
   width: 1200px;
 }
+.button-showall { 
+  height: 60px;
+  width: 75%;
+  background-color: #F8F8F8 !important;
+}
