@@ -8,6 +8,7 @@
 - [x] Components
 - [x] Jest 
 - [x] Responsive
+- [x] Vite
 
 ## View 
 
