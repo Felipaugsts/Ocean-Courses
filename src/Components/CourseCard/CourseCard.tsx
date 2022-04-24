@@ -4,9 +4,11 @@ import android from '../../Assets/Icons/android.png'
 import TableView from './Table'
 import Button from '../Button/Button'
 import ExpandedTable from '../CourseCard/ExpandedTable'
+import Courses from '../../Data/model'
 
 
-function CourseCard() { 
+    
+const CourseCard: React.FC<{ course: Courses }> = ({ course }) => {
 
     const [expand, setExpand] = useState(false);
 
@@ -19,23 +21,23 @@ function CourseCard() {
         <div className={!expand ? "course-card" : "expend-active"}>
             <div className='card-wrapper'>
             <div className='card-hearder'>
-                <p className='small w-normal dark'>TRILHA <span className='blue'>ANDROID</span></p>
+                <p className='small w-normal dark'>TRILHA <span className='blue'>{course.track.toLocaleUpperCase()}</span></p>
                 <img src={android} />
             </div>
 
             <div>
                 <p className='title-text dark large'>
-                    WebServices com Retrofit e Imagens Glide
+                    {course.title}
                 </p>
             </div>
             </div>
 
             <div className='table-view-wrapper'>
-                <TableView />
+                <TableView details={course} tableType={"date"} />
                 <hr className='divider' />
-                <TableView />
+                <TableView details={course} tableType={"classes"} />
                 <hr className='divider' />
-                <TableView />
+                <TableView details={course} tableType={"speaker"}   />
                 <Button label='INSCRICOES A PARTIR DE 13/01' />
                 <Button color='primary' label='Pagina do curso' />
             </div>
@@ -46,9 +48,11 @@ function CourseCard() {
 
 </div >
           <div className={expand ? "expanded" : "hidden"}>
-          <ExpandedTable />
-            <ExpandedTable />
-            <ExpandedTable />
+            { 
+            course.events.map((courses) => { 
+              return  <ExpandedTable details={courses.events}  />
+            })
+            }
           </div>
         </div>
     )

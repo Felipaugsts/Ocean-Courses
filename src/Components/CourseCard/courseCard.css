@@ -6,7 +6,7 @@
     border-radius: 15px;
     margin: 5px !important;
     margin-bottom: 20px !important;
-    transition: all 1s ease !important;
+    transition: all 0.5s ease !important;
 }
 .card-hearder { 
     display: flex;
@@ -42,15 +42,20 @@
 }
 .item { 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
+    padding-left: 15px !important;
     align-items: center;
-    width: 60%;
+    width: 50%;
 }
 .item2 { 
     display: flex;
-    justify-content: space-evenly;
-    width: 40%;
+    justify-content: start;
+    width: 50%;
 
+}
+.iconSpacer { 
+padding-left: 10px !important;
+padding-right: 10px !important; 
 }
 .item-text { 
     text-align: left !important;
@@ -63,7 +68,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 15px !important;
-    transition: all 1s ease !important;
+    
 }
 .expend:hover { 
     cursor: pointer;
@@ -76,13 +81,12 @@
     border-radius: 15px;
     margin: 5px !important;
     margin-bottom: 20px !important;
-    transition: all 1s ease !important;
+    transition: all 0.1s ease !important;
 }
 .table-view-second {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all 1s ease !important;
 }
 .card-details { 
     background-color: #FAFAFA;
@@ -97,24 +101,22 @@
 
     padding-right: 20px !important;
     padding-left: 20px !important; 
-    transition: all 1s ease !important;
 }
 .certificate-icon { 
     margin-right: 8px !important;
     height: 15px;
-    transition: all 1s ease !important;
+
 }
 .time-wrapper { 
     display: flex;
     justify-content: center;
-    transition: all 1s ease !important;
+  
 }
 .expanded { 
     display: flex;
     flex-direction: column;
-    transition: all 1s ease !important;
+
 }
 .hidden { 
     display: none;
-    transition: all 1s ease !important;
 }
