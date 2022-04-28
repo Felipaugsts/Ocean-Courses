@@ -1,4 +1,5 @@
 import './button.css'
+
 type Props = {
     color?: string;
     label: string

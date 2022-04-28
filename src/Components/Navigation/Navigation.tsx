@@ -1,5 +1,5 @@
-import './navigation.css'
-import logo from '../../Assets/Logo/logo.png'
+import './navigation.css';
+import logo from '../../Assets/Logo/logo.png';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 function Navigation() { 
