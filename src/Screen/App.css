@@ -44,18 +44,17 @@ button {
   font-size: calc(10px + 2vmin);
 }
 
-
 /* COURSE LIST */
 
-.course-list { 
+.course-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 25px;
   width: 1200px;
 }
-.button-showall { 
+.button-showall {
   height: 60px;
   width: 75%;
-  background-color: #F8F8F8 !important;
+  background-color: #f8f8f8 !important;
 }
