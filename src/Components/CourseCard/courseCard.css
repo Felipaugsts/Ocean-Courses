@@ -1,122 +1,115 @@
-.course-card { 
-    height: 496px;
-    width: 275.72900390625px;
-    border-radius: 0px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
-    border-radius: 15px;
-    margin: 5px !important;
-    margin-bottom: 20px !important;
-    transition: all 0.5s ease !important;
+.course-card {
+  height: 496px;
+  width: 275.72900390625px;
+  border-radius: 0px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  margin: 5px !important;
+  margin-bottom: 20px !important;
+  transition: all 0.5s ease !important;
 }
-.card-hearder { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.card-hearder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.table-view-wrapper { 
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
-    padding-bottom: 15px !important;
-    border-radius: 15px;
+.table-view-wrapper {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
+  padding-bottom: 15px !important;
+  border-radius: 15px;
 }
-.card-wrapper { 
-    height: 115px !important;
-    padding: 15px !important;
-    background: #F5FCFF;
-
+.card-wrapper {
+  height: 115px !important;
+  padding: 15px !important;
+  background: #f5fcff;
 }
-.title-text { 
-    margin-top: 20px !important;
+.title-text {
+  margin-top: 20px !important;
 }
 .divider {
-    margin-top: 8px !important;
-    opacity: 0.3;
+  margin-top: 8px !important;
+  opacity: 0.3;
 }
-
 
 /* TABLE VIEW */
 
-.table-view { 
-    width: 100%;
-    display: flex;
-    margin-top: 25px !important;
+.table-view {
+  width: 100%;
+  display: flex;
+  margin-top: 25px !important;
 }
-.item { 
-    display: flex;
-    justify-content: start;
-    padding-left: 15px !important;
-    align-items: center;
-    width: 50%;
+.item {
+  display: flex;
+  justify-content: start;
+  padding-left: 15px !important;
+  align-items: center;
+  width: 50%;
 }
-.item2 { 
-    display: flex;
-    justify-content: start;
-    width: 50%;
-
+.item2 {
+  display: flex;
+  justify-content: start;
+  width: 50%;
 }
-.iconSpacer { 
-padding-left: 10px !important;
-padding-right: 10px !important; 
+.iconSpacer {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
 }
-.item-text { 
-    text-align: left !important;
+.item-text {
+  text-align: left !important;
 }
 
 /* EXPAND */
 
-.expend { 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 15px !important;
-    
+.expend {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px !important;
 }
-.expend:hover { 
-    cursor: pointer;
+.expend:hover {
+  cursor: pointer;
 }
-.expend-active { 
-    height: 806px;
-    width: 275.72900390625px;
-    border-radius: 0px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
-    border-radius: 15px;
-    margin: 5px !important;
-    margin-bottom: 20px !important;
-    transition: all 0.1s ease !important;
+.expend-active {
+  height: 806px;
+  width: 275.72900390625px;
+  border-radius: 0px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.16);
+  border-radius: 15px;
+  margin: 5px !important;
+  margin-bottom: 20px !important;
+  transition: all 0.1s ease !important;
 }
 .table-view-second {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.card-details { 
-    background-color: #FAFAFA;
-    margin-top: 10px !important;
-    height: 44px;
-    width: 220px !important;
-    border-radius: 30px;
+.card-details {
+  background-color: #fafafa;
+  margin-top: 10px !important;
+  height: 44px;
+  width: 220px !important;
+  border-radius: 30px;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    padding-right: 20px !important;
-    padding-left: 20px !important; 
+  padding-right: 20px !important;
+  padding-left: 20px !important;
 }
-.certificate-icon { 
-    margin-right: 8px !important;
-    height: 15px;
-
+.certificate-icon {
+  margin-right: 8px !important;
+  height: 15px;
 }
-.time-wrapper { 
-    display: flex;
-    justify-content: center;
-  
+.time-wrapper {
+  display: flex;
+  justify-content: center;
 }
-.expanded { 
-    display: flex;
-    flex-direction: column;
-
+.expanded {
+  display: flex;
+  flex-direction: column;
 }
-.hidden { 
-    display: none;
+.hidden {
+  display: none;
 }

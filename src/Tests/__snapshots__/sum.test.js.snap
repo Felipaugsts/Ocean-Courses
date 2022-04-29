@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` should render correctly - Footer 1`] = `
+<div
+  className="footer"
+>
+  <img
+    className="logo"
+    src="test-file-stub"
+  />
+  <p
+    className="medium dark light"
+  >
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    <br />
+    Impedit dolorum quo repellendus magni, officia ea mollitia asperiores! 
+    <br />
+    Aliquam explicabo perferendis quis nisi quaerat unde accusamus laborum 
+    <br />
+    cupiditate quae sapiente? Deserunt?
+  </p>
+  <p
+    className="small gray"
+  >
+     copyright samsung electronics 2022. all rights reserved 
+  </p>
+</div>
+`;
+
+exports[` should render correctly - Navigation bar 1`] = `
+<div
+  className="navigation"
+>
+  <div
+    className="navigation-bar"
+  >
+    <img
+      className="navigation-logo"
+      src="test-file-stub"
+    />
+    <div
+      className="navigation-option dark-blue w-normal"
+    >
+      <p>
+        Trilhas
+      </p>
+      <p>
+        Cursos
+      </p>
+      <p>
+        Agenda
+      </p>
+    </div>
+    <p
+      className="dark-blue w-bold"
+    >
+      Entrar/Cadastrar
+    </p>
+  </div>
+  <div
+    className="icon-wrapper"
+  >
+    <i
+      className="icon bi bi-list"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="navigation"
+>
+  <div
+    className="navigation-bar"
+  >
+    <img
+      className="navigation-logo"
+      src="test-file-stub"
+    />
+    <div
+      className="navigation-option dark-blue w-normal"
+    >
+      <p>
+        Trilhas
+      </p>
+      <p>
+        Cursos
+      </p>
+      <p>
+        Agenda
+      </p>
+    </div>
+    <p
+      className="dark-blue w-bold"
+    >
+      Entrar/Cadastrar
+    </p>
+  </div>
+  <div
+    className="icon-wrapper"
+  >
+    <i
+      className="icon bi bi-list"
+    />
+  </div>
+</div>
+`;
